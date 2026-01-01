@@ -3,7 +3,7 @@ AstranixBackups is a lightweight Minecraft plugin that automatically backs up yo
 The plugin is designed to be simple, reliable, and easy to configure. All setup instructions are explained step-by-step inside the config.yml, allowing server owners to get started quickly without complicated commands.
 
 ## 🚀 Getting Started
-### Ultimate Backups
+# Ultimate Backups
 config.yml
 ```yml
 # ID of the Folder Where Your Google Drive Backup Is Located.
