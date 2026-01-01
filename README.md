@@ -46,6 +46,10 @@ crashBackup: true
 - Lightweight and optimized for performance
 - Automatic backup compression
 - Discord notification webhook (only AstranixUltimate)
+### Permissions
+- autobackup.start – Allows starting the automatic backup system
+- autobackup.admin – Grants full administrative access to the plugin
+- autobackup.now – Allows executing an instant backup manually
 
 ### Links
 - Documentation: [Github](https://github.com)
