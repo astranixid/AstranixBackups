@@ -6,22 +6,12 @@
 ### Ultimate Backups
 config.yml
 ```xml
-#  █████╗  ███████╗████████╗██████╗  █████╗ ███╗   ██╗██╗██╗  ██╗
-# ██╔══██╗ ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗████╗  ██║██║╚██╗██╔╝
-# ███████║ ███████╗   ██║   ██████╔╝███████║██╔██╗ ██║██║ ╚███╔╝
-# ██╔══██║ ╚════██║   ██║   ██╔══██╗██╔══██║██║╚██╗██║██║ ██╔██╗
-# ██║  ██║ ███████║   ██║   ██║  ██║██║  ██║██║ ╚████║██║██╔╝ ██╗
-# ╚═╝  ╚═╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
-# Astranix © 2025-2026
-
 # ID of the Folder Where Your Google Drive Backup Is Located.
-# example https://drive.google.com/drive/folders/1aBcD...
 google-drive-folder-id: ""
 backup-interval-minutes: 120
 # Leave blank ("") to follow the Server/VPS default time.
 backup-timezone: "Asia/Jakarta"
 
-# LIST OF ITEMS TO BACKUP
 # 'worlds' is a special keyword that will automatically include all world folders.
 backup-items:
   - "server.properties"
@@ -42,12 +32,9 @@ notifications:
   in-game: false
   console: true
 
-# ==============================================================================
-# ADVANCED FEATURES (CRASH & RESTART)
-# ==============================================================================
-
 # WARNING: This will delay the server shutdown time until the backup is complete.
 preRestartBackup: false
 
 # If a crash is detected for 60 seconds, the plugin will attempt an emergency backup.
 crashBackup: true
+```
