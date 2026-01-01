@@ -41,5 +41,3 @@ crashBackup: true
 - Documentation: [Github](https://github.com)
 - Plugin: [AstranixLiteBackups](https://builtbybit.com) [AstranixUltimateBackups](https://builtbybit.com)
 - Support: [Discord](https://discord.com)
-
-[![Astranix Discord](https://discordapp.com/api/guilds/1332500160139366451/embed.png?style=banner2)](https://discord.gg/DGmWTbhMS3)
