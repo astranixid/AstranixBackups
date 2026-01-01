@@ -3,7 +3,7 @@
 ## 🚀 Getting Started
 ### Ultimate Backups
 config.yml
-```xml
+```yml
 # ID of the Folder Where Your Google Drive Backup Is Located.
 google-drive-folder-id: ""
 backup-interval-minutes: 120
