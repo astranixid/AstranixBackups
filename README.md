@@ -4,7 +4,6 @@
 
  ---
 ## 🚀 Getting Started
-
 ### config.yml
 ```xml
 
