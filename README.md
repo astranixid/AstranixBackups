@@ -4,8 +4,50 @@
 
 ## 🚀 Getting Started
 ### Ultimate Backups
---- config 
+config.yml
 ```xml
+#  █████╗  ███████╗████████╗██████╗  █████╗ ███╗   ██╗██╗██╗  ██╗
+# ██╔══██╗ ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗████╗  ██║██║╚██╗██╔╝
+# ███████║ ███████╗   ██║   ██████╔╝███████║██╔██╗ ██║██║ ╚███╔╝
+# ██╔══██║ ╚════██║   ██║   ██╔══██╗██╔══██║██║╚██╗██║██║ ██╔██╗
+# ██║  ██║ ███████║   ██║   ██║  ██║██║  ██║██║ ╚████║██║██╔╝ ██╗
+# ╚═╝  ╚═╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝
+# Astranix © 2025-2026
 
-```
-> Links Download [AstranixLite](https://bl.c) [AstranixUltimate](https://bl.c)
+# ID of the Folder Where Your Google Drive Backup Is Located.
+# example https://drive.google.com/drive/folders/1aBcD...
+google-drive-folder-id: ""
+backup-interval-minutes: 120
+# Leave blank ("") to follow the Server/VPS default time.
+backup-timezone: "Asia/Jakarta"
+
+# LIST OF ITEMS TO BACKUP
+# 'worlds' is a special keyword that will automatically include all world folders.
+backup-items:
+  - "server.properties"
+  - "bukkit.yml"
+  - "spigot.yml"
+  - "config"
+  - "server-icon.png"
+  - "banned-ips.json"
+  - "banned-players.json"
+  - "plugins"
+  - "logs"
+  - "worlds"
+
+# Leave blank ("") if you don't want to use this feature.
+discord-webhook-url: ""
+
+notifications:
+  in-game: false
+  console: true
+
+# ==============================================================================
+# ADVANCED FEATURES (CRASH & RESTART)
+# ==============================================================================
+
+# WARNING: This will delay the server shutdown time until the backup is complete.
+preRestartBackup: false
+
+# If a crash is detected for 60 seconds, the plugin will attempt an emergency backup.
+crashBackup: true
