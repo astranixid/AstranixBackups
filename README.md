@@ -39,6 +39,14 @@ preRestartBackup: false
 crashBackup: true
 ```
 
+## Features:
+- Automatic world and server data backups
+- Direct Google Drive integration
+- Scheduled backups with configurable intervals
+- Lightweight and optimized for performance
+- Automatic backup compression
+- Discord notification webhook (only AstranixUltimate)
+
 ### Links
 - Documentation: [Github](https://github.com)
 - Plugin: [AstranixLiteBackups](https://builtbybit.com) [AstranixUltimateBackups](https://builtbybit.com)
