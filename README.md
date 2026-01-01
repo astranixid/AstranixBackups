@@ -39,7 +39,7 @@ preRestartBackup: false
 crashBackup: true
 ```
 
-#### Features:
+### Features:
 - Automatic world and server data backups
 - Direct Google Drive integration
 - Scheduled backups with configurable intervals
