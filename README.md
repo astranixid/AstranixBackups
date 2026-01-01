@@ -1,5 +1,5 @@
 # Plugin Minecraft AstranixBackups
-AutoBackupGoogleDrive is a lightweight Minecraft plugin that automatically backs up your server worlds and important data directly to Google Drive, keeping your server safe from crashes, data loss, or accidental deletion.
+AstranixBackups is a lightweight Minecraft plugin that automatically backs up your server worlds and important data directly to Google Drive, keeping your server safe from crashes, data loss, or accidental deletion.
 The plugin is designed to be simple, reliable, and easy to configure. All setup instructions are explained step-by-step inside the config.yml, allowing server owners to get started quickly without complicated commands.
 
 ## 🚀 Getting Started
