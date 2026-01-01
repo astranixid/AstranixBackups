@@ -1,4 +1,4 @@
-# Plugin AstranixBackups Minecraft
+# Plugin Minecraft AstranixBackups
 
 ## 🚀 Getting Started
 ### Ultimate Backups
